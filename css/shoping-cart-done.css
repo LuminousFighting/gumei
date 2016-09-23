@@ -1,0 +1,203 @@
+body,ul,li{
+	margin: 0;
+	padding: 0;
+}
+html{
+	font-size: 10px;
+	position: relative;
+}
+body{
+	background: #F2F2F2;;
+}
+#head{
+	position: relative;
+	height: 45px;
+}
+#head>a{
+	display: inline-block;
+	position: relative;
+	left: 2%;
+	top: 30%;
+	height: 50%;	
+}
+#head>a>img{
+	height: 100%;	
+}
+#head>span{
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	top: 35%;
+	font-size: 1.4rem;
+	color: #444950;
+}
+.center{
+	width: 100%;
+	height: 275px;
+	position: relative;
+	background: #F9F9F9;
+}
+.nav{
+	position: relative;
+	border-top: 1px solid gainsboro;	
+	border-bottom: 1px solid gainsboro;
+	width: 100%;
+	height: 50px;
+	background: white;
+	line-height: 50px;
+}
+.anniu1{
+	position: absolute;
+	width: 22px;
+	height: 22px;
+	display: inline-block;
+	border-radius: 50%;
+	border: 1px solid gainsboro;
+	top: 0;bottom: 0;
+	margin: auto;
+	left: 2%;
+	background: url(../img/shoping-cart/Checked.png) no-repeat;
+	background-size: 100% 100%;
+}
+.anniu2{
+	position: absolute;
+	width: 22px;
+	height: 22px;
+	display: inline-block;
+	border-radius: 50%;
+	border: 1px solid gainsboro;
+	top: 0;bottom: 0;
+	margin: auto;
+	left: 2%;
+	background: url(../img/shoping-cart/xiegang.png) no-repeat;
+	background-size: 100% 100%;
+}
+.nav>span{
+	margin-left: 12%;
+	font-size: 1.4rem;
+	
+}
+.nav>a{
+	position: absolute;
+	right: 5%;
+	text-decoration: none;
+	font-size: 1.4rem;
+	color: #1D1F23;
+}
+.ulshow{
+	list-style: none;	
+	background: #F9F9F9;
+	padding-bottom: 20px;
+}
+.ulshow>li{
+	position: relative;
+	height: 80px;
+}
+.anniu{
+	position: absolute;
+	width: 22px;
+	height: 22px;
+	display: inline-block;
+	border-radius: 50%;
+	border: 1px solid gainsboro;
+	top: 0;bottom: 0;
+	margin: auto;
+	left: 2%;
+}
+.shopshow{
+	position: relative;	
+	width: 80px;height: 80px;
+	margin-left: 10%;
+	margin-top: 20px;
+}
+.shopshow>img{
+	width: 100%;
+	
+}
+.p0{
+	position: absolute;
+	display: block;
+	background: rgba(192,49,72,0.8);
+	width: 100%;
+	height: 20px;
+	bottom: -10px;
+	line-height: 20px;
+	text-align: center;
+	color: white;
+}
+.p01{
+	position: absolute;
+	display: inline-block;
+	background: rgba(117,117,117,0.8);
+	width: 100%;
+	height: 20px;
+	bottom: -10px;
+	line-height: 20px;
+	text-align: center;
+	color: white;
+}
+.shop-details{
+	position: absolute;
+	left: 35%;
+	bottom: 0;
+	height: 78px;
+	width: 60%;
+}
+.select{
+	position: absolute;
+	right: 0;
+	outline: none;
+	bottom: 0;
+	width: 45px;
+	height: 24px;
+	background: white;
+}
+.select1{
+	position: absolute;
+	right: 0;
+	outline: none;
+	bottom: 0;
+	width: 45px;
+	height: 24px;
+	background: gainsboro;
+	color: gray;	
+}
+.p1{
+	color: #AEAEAE;
+}
+.delate{
+	position: absolute;
+	height: 30px;
+	width: 80px;
+	margin-left: 40%;
+	bottom: -10px;
+}
+.delate>ul{
+	width: 80px;
+	height: 30px;
+	list-style: none;
+	overflow: hidden;
+}
+.delate>ul>li{
+	float: left;
+	width: 38px;
+	text-align: center;
+}
+.delate>ul>li:first-child{
+	border-right: 1px solid gainsboro;
+}
+.delate>ul>li>a>img{
+	width: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

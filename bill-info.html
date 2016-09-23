@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>发票信息</title>
+		<link rel="stylesheet" type="text/css" href="css/bill-info.css"/>
+	</head>
+	<body>
+		<!--头部区域-->
+		<div id="head">
+			<a href="write-order.html"><img src="img/indexImg/fanhui.png"/></a>
+			
+			<span >订单支付</span>
+		</div>
+		<!--发票信息-->
+		<div class="info ">
+			<p>发票信息</p>
+			<div class="show1 selected biaoshi">需要发票</div>
+			<div class="show2 biaoshi" >暂不需要发票</div>
+		</div>
+		<!--发票类型-->
+		<div class="info info1">
+			<p>发票类型</p>
+			<div class="show1 selected change">普通纸质发票</div>
+		</div>
+		<!--发票抬头-->
+		<div class="taitou info info1">
+			<p>发票抬头</p>
+			<!--选择按钮-->
+				<div class="select " >
+					<div class="select0 dis"></div>
+				</div>
+			<span class="geren">个人</span><br>
+			
+			<!--选择按钮-->
+				<div class="select  select11" >
+					<div class="dis"></div>
+				</div>
+			<span class="danwei">单位</span>
+			<input type="text" placeholder="请输入单位名称" class="danweiin"/>			
+		</div>
+		<!--发票内容-->
+		<div class="info hei info1">
+			<p>发票内容</p>
+			<p>选择项目:</p>
+			<div class="show1 selected biaoshi1">明细</div>
+			<div class="show2 biaoshi1">酒</div>
+			<p>由店铺决定,发票由店铺开具并寄出</p>
+		</div>
+		<!--确定按钮-->
+		<a href="write-order.html" class="queding">确定</a>
+		<script src="js/bill-info.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>
