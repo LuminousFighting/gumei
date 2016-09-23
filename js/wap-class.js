@@ -18,6 +18,7 @@ for (var i = 0; i < li.length; i++) {
 		for (var i = 0; i < li.length; i++) {
 			li[i].setAttribute("class", "");
 		}	
+		this.setAttribute("class", "bg");		
 		creatRight(rightArr,Arr1);		
 	}	
 }
