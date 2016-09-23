@@ -1,6 +1,8 @@
-body,ul,li,p{
+body,ul,li,p,a{
 	margin: 0;
 	padding: 0;
+	list-style: none;
+	text-decoration: none;
 }
 html{
 	font-size: 10px;
@@ -16,6 +18,9 @@ body{
 	position: fixed;
 	z-index: 30;
 	background: #F2F2F2;	
+}
+#head>div>a{
+	color: black;
 }
 #head{
 	position: relative;

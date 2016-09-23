@@ -1,0 +1,29 @@
+#nav{
+	height: 52px;
+}
+.nav-li{
+	position: relative;
+}
+.nav-li>img{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 10px;
+	height: 1.8rem;
+}
+#center{
+	width: 100%;
+	position: relative;
+	right: 0%;
+	top: 5px;
+}
+.input{
+	outline: none;
+}
+.li-botten{
+	border-bottom: 2px solid #D15C6F;	
+	color: #D15C6F;
+}
+#nav .li-botten>a{
+	color: #D15C6F;
+}

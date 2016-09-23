@@ -1,0 +1,122 @@
+body,ul,li,p,h2{
+	margin: 0;
+	padding: 0;
+}
+html{
+	font-size: 10px;
+	position: relative;
+	height: 100%;
+}
+body{
+	background: #F2F2F2;
+	position: relative;
+	height: 100%;
+		
+}
+#head{
+	position: relative;
+	height: 45px;
+	z-index: 1;
+	border-bottom: 1px solid gainsboro;
+}
+#head>a{
+	position: absolute;
+	left: 2%;
+	top: 30%;
+	height: 40%;	
+}
+#head>a>img{
+	position: absolute;
+	left: 2%;
+	top: 30%;
+	height: 100%;	
+}
+#head>span{
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	top: 40%;
+	font-size: 1.8rem;
+	color: #87898E;
+}
+#head>button{
+	position: absolute;
+	right: 5%;
+	top: 60%;
+	transform: translateY(-50%);
+	font-size: 1.6rem;
+	outline: none;
+	color: #87898E;
+}
+/*底部提交按钮*/
+.tijiao{
+	position: absolute;
+	display: block;
+	width: 90%;
+	height: 45px;
+	background: #C31734;
+	color: white;
+	font-size: 1.6rem;
+	text-align: center;
+	line-height: 45px;
+	left: 50%;
+	transform: translateX(-50%);
+	
+	margin-bottom: 10px;
+	border-radius: 5px;
+	border: none;
+	outline: none;
+}
+
+/*中间部分*/
+#center{
+	
+}
+.p1{
+	padding: 5%;
+	font-size: 1.3rem;
+	line-height: 18px;
+	padding-top: 10%;
+}
+.p2,.p3{
+	padding: 5%;
+	font-size: 1.3rem;
+	color: #777777;	
+}
+.phone{
+	margin-left: 5%;
+	width: 52%;
+	height: 40px;
+	border: none;
+	outline: none;
+	line-height: 40px;
+	padding-left: 10px;
+	font-size: 1.6rem;
+	border-radius: 3px;
+}
+#center>button{
+	margin-left: 5px;
+	width: 35%;
+	height: 45px;
+	border: none;
+	outline: none;
+	line-height: 40px;
+	padding-left: 5px;
+	font-size: 1.6rem;
+	border-radius: 5px;
+	color: white;
+}
+.bg{
+	background: #C31734;
+}
+.phone-get{
+	width: 90%;
+	margin-left: 5%;
+	height: 40px;
+	border: none;
+	outline: none;
+	line-height: 40px;
+	padding-left: 10px;
+	font-size: 1.6rem;
+	border-radius: 3px;
+}
