@@ -58,3 +58,57 @@ for (var i = 0; i < biaoshi.length; i++) {
 		this.setAttribute("class", "biaoshi xuan");
 	}
 }
+
+var address = document.getElementById("address");
+address.onclick = function () {
+	setTimeout(function () {
+		box.style.right = "0";		
+	},100)
+	wrap.style.display = "block";
+}
+
+var nowPay = document.getElementsByClassName("now-pay")[0];
+nowPay.onclick = function () {
+	window.location.href = "write-order.html";
+}
+var shopCart = document.getElementsByClassName("shop-cart")[0];
+shopCart.onclick = function () {
+	window.location.href = "shoping-cart.html";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>详情3</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<link rel="stylesheet" type="text/css" href="css/index15.css"/>
+	
+</head>
+<body>
+	<div id="wrap">
+		<div class="nav">
+			<span>数量</span>
+			<p class="sub">-</p>
+			<p class="change">1</p>
+			<p class="add">+</p>
+		</div>
+		<div class="cont">
+			<span>送至</span>
+			<img src="img/details-page/local.png"/>
+			<h4>北京市</h4>
+			<h4>丰台区</h4>
+			<h4>五环内</h4>
+			<span>无货</span>
+			<p>由&nbsp国美酒窖 发货并负责售后服务</p>
+		</div>
+		<div class="nav1">
+			<span>查看全部图文详情</span>
+			<a href="###">></a>
+		</div>
+		<div class="footer">
+			<img src="img/details-page/shoucang.png" alt="" />
+			<img src="img/details-page/shop-cart.png" alt="" />
+			<span>无货</span>
+		</div>
+		
+		<div class="nav again">
+			<span>数量</span>
+			<p class="sub">-</p>
+			<p class="change">1</p>
+			<p class="add">+</p>
+		</div>
+		<div class="cont">
+			<span>送至</span>
+			<img src="img/details-page/local.png"/>
+			<h4>北京市</h4>
+			<h4>丰台区</h4>
+			<h4>五环内</h4>
+			<span>无货</span>
+			<p>由&nbsp国美酒窖 发货并负责售后服务</p>
+		</div>
+		<div class="nav1">
+			<span>查看全部图文详情</span>
+			<a href="###">></a>
+		</div>
+		<div class="footer">
+			<img src="img/details-page/shoucang.png" alt="" />
+			<img src="img/details-page/shop-cart.png" alt="" />
+			<span>已下架</span>
+		</div>
+	</div>
+	<script src="js/jquery-3.1.0.min.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		$(".sub").click(function(){
+			var att = $(".change").html()-0;
+//			console.log(att ,typeof att);
+			att--;
+			if(att<0){
+		 	att=0;
+			}
+			$(".change").html(att);
+		});
+			$(".add").click(function(){
+			var att = $(".change").html()-0;
+			att++;
+			$(".change").html(att);
+		})
+		
+		
+	</script>
+</body>
+</html>

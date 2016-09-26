@@ -1,0 +1,140 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+#wrap{
+	width: 100%;
+	height: 760px;
+	background-color: #F4F4F4;
+}
+.nav{
+	position: relative;
+	background-color: white;
+	height: 70px;
+}
+.nav>span{
+	position: absolute;
+	font-size: 19px;
+	top: 24px;
+	left: 2%;
+	color: #b9babc;
+}
+.nav>p{
+	float: left;
+	text-align: center;
+	line-height: 40px;
+	font-size: 30px;
+	width: 13%;
+	height: 40px;
+	background-color: #e6e6e6;
+	color: #d4d4d4;
+	border: 1px solid #dcdcdc;
+	margin-top: 12px;
+}
+.nav>p:nth-of-type(1){
+	margin-left: 15%;
+}
+.nav>p:nth-of-type(2){
+	background-color: white;
+}
+.cont{
+	margin-top: 15px;
+	position: relative;
+	background-color: white;
+	height: 70px;
+}
+.cont>span:first-child{
+	color: #aaacae;
+	position: absolute;
+	top: 13px;
+	left: 2%;
+	font-size: 18px;
+}
+.cont>img{
+	position: absolute;
+	width: 4%;
+	top: 10px;
+	left: 15%;
+}
+.cont>h4{
+	font-size: 18px;
+	color: #3b3b3b;
+	width: 15%;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	margin-top: 8px;
+	float: left;
+}
+.cont>h4:nth-of-type(1){
+	margin-left: 20%;
+}
+.cont>span:nth-of-type(2){
+	color: #c84359;
+	font-size: 18px;
+	position: absolute;
+	top: 40px;
+	left: 15%;
+}
+.cont>p{
+	position: absolute;
+	color: #a7a9ab;
+	top: 40px;
+	width: 75%;
+	left: 25%;
+	font-size: 18px;
+}
+.nav1{
+	width: 100%;
+	height: 60px;
+	position: relative;
+	margin-top: 15px;
+	background-color: white;
+	
+}
+.nav1>span{
+	font-size: 20px;
+	position: absolute;
+	top: 15px;
+	left: 26%;
+	color: #1c1c1c;
+}
+.nav1>a{
+	text-decoration: none;
+	position: absolute;
+	color: #b7b7b7;
+	font-size: 30px;
+	top: 12px;
+	left: 90%;
+}
+.footer{
+	width: 100%;
+	height: 70px;
+	position: relative;
+	margin-top: 2px;
+	background-color: #fafafa;
+}
+
+.footer>img{
+    width: 11%;
+    	float: left;
+    	margin-left: 10%;
+    	padding-top: 20px;
+}
+.footer>span{
+	width: 50%;
+	height: 70px;
+	position: absolute;
+	background-color: #e6e6e6;
+	left: 50%;
+	text-align: center;
+	line-height: 70px;
+	font-size: 22px;
+	color: #cccccc;
+}
+.again{
+	margin-top: 100px;
+}
+
+

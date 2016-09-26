@@ -3,8 +3,11 @@ var biaoshi = document.getElementsByClassName("biaoshi")[0];
 var time = document.getElementsByClassName("time")[0];
 var wenzi = document.getElementsByClassName("wenzi")[0];
 var tijiao = document.getElementsByClassName("tijiao")[0];
+var close = document.getElementsByClassName("close")[0];
 
-
+close.onclick = function () {
+	window.location.href = "logo.html";
+}
 
 var flag = true;
 var timer ;
@@ -38,7 +41,7 @@ tijiao.onclick = function () {
 	console.log("123")
 	var num0 = phoneInput.value;
 	if (num == num0) {
-		window.location.href = "";		
+		window.location.href = "password-new-change.html";		
 	}else{
 		alert("请输入正确的验证码!");
 	}

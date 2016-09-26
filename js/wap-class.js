@@ -11,7 +11,7 @@ for (var i = 0; i < alcArr.length; i++) {
 	ul_left.appendChild(li);
 	li[i] = i;
 }
-var li = document.querySelectorAll("li");
+var li = document.getElementsByClassName("ul-left")[0].querySelectorAll("li");
 for (var i = 0; i < li.length; i++) {	
 	li[i] = i;
 	li[i].onclick = function () {		

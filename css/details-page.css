@@ -16,7 +16,7 @@ body{
 	height: 45px;
 	width: 100%;
 	position: fixed;
-	z-index: 30;
+	z-index: 90;
 	background: #F2F2F2;	
 }
 #head>div>a{
