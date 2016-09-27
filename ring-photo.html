@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>图片详情</title>
+		<link rel="stylesheet" type="text/css" href="css/swiper.min.css"/>
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			.swiper-container img{
+				width: 100%;			
+			}
+			#ring-box{
+				margin-top: 300px;
+				
+			}
+		</style>
+	</head>
+	<body>
+		<div id="ring-box">			
+			<div class="swiper-container">
+			    <div class="swiper-wrapper">
+			        <div class="swiper-slide"><img src="img/ring-photo/psb-1.jpg"/></div>
+			        <div class="swiper-slide"><img src="img/ring-photo/psb-2.jpg"/></div>
+			        <div class="swiper-slide"><img src="img/ring-photo/psb-3.jpg"/></div>
+			        <div class="swiper-slide"><img src="img/ring-photo/psb-4.jpg"/></div>
+			        <div class="swiper-slide"><img src="img/ring-photo/psb-5.jpg"/></div>			        
+			    </div>		    
+			    <!-- 如果需要导航按钮 -->
+			    <div class="swiper-button-prev"></div>
+			    <div class="swiper-button-next"></div>		    
+			</div>				
+		</div>
+		<script src="js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+		<script>        
+		  var mySwiper = new Swiper ('.swiper-container', {
+		    direction: 'horizontal',
+		    loop: true,
+		    // 如果需要前进后退按钮
+		    nextButton: '.swiper-button-next',
+		    prevButton: '.swiper-button-prev',		   
+		  })        
+		  </script>
+	</body>
+</html>

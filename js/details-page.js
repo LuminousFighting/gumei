@@ -76,7 +76,10 @@ shopCart.onclick = function () {
 	window.location.href = "shoping-cart.html";
 }
 
-
+var Btn = document.getElementsByTagName("button")[1];
+Btn.onclick = function() {
+	window.location.href = "store-details.html";
+}
 
 
 

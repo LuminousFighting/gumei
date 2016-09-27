@@ -152,6 +152,47 @@ body{
 	height: 24px;
 	background: white;
 }
+.select-div{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 45px;
+	height: 24px;
+	background: white;
+	border-radius: 5px;
+	/*overflow: hidden;*/
+}
+
+.select-ul{
+	position: absolute;
+	z-index: 10;
+	width: 45px;
+	height: 24px;
+	list-style: none;
+	overflow: hidden;
+	
+}
+.select-div0{
+	overflow:visible;
+	
+}
+.xiasanjiao{
+	position: absolute;
+	z-index: 100;
+	right: 10%;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 1rem;
+}
+.select-ul>li{
+	width: 32px;
+	height: 22px;
+	padding-left: 10px;
+	line-height: 24px;
+	font-size: 1.6rem;	
+	background: white;
+	border: 1px solid gray;
+}
 .select1{
 	position: absolute;
 	right: 0;

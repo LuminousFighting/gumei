@@ -5,9 +5,12 @@ body,ul,li{
 html{
 	font-size: 10px;
 	position: relative;
+	overflow-x: hidden;
 }
 body{
-	background: #F2F2F2;;
+	background: #F2F2F2;
+	overflow-x: hidden;
+	
 }
 #head{
 	position: relative;
@@ -46,6 +49,10 @@ body{
 	position: relative;
 	font-size: 1.3rem;
 	border-bottom: 1px solid gainsboro;
+	
+}
+#show>ul li:nth-child(4)>input{
+	width: 80%;
 }
 #show>ul li:last-child{
 	border-bottom: none;

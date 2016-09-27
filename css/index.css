@@ -92,6 +92,10 @@ body{
 	bottom: 30%;
 	left: 26%;
 }
+#tianwo>a{
+	color: #CAC7C8;
+	text-decoration: none;
+}
 #score{
 	display: inline-block;
 	position: absolute;
